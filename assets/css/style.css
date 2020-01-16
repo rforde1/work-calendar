@@ -1,76 +1,27 @@
-/* Element Selectors */
-body{
-    background: url("https://images.all-free-download.com/images/graphicthumb/blue_abstract_background_310971.jpg") no-repeat 
-    center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+  }
+  textarea{
+    background: transparent;
+    border: 5px solid black;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid black;
+    padding: 10px;
 
-h1{
-    text-align: center;
-    font-size: 75px;
-    font-weight: bold;
-    font-family: 'Merriweather', serif;
-    margin-top: 25px;
-}
-textarea{
-    border: 2px solid;
-}
-
-p{
-    text-align: center;
-}
-
-/* Class Selectors */
-
-.save-button{
-    background-color: blue;
+  }
+  .past {
+    background-color: #d3d3d3;
     color: white;
-    height: 64px;
-    border-radius: 20px;
-    padding: -4px;
-    width: 74px;
-    position: relative;
-    left: 384px;
-    margin-top: 10px;
-    width: 167px;
-    
-}
+  }
+  .present {
+    background-color: #ff6961;
+    color: white;
+  }
+  .future {
+    background-color: #77dd77;
+    color: white;
 
-.hours{
-    font-weight: bold; 
-    font-size: 28px;
-    margin: 10px;
-}
-
-/* ID Selectors */
-#red{
-    color:red;
-}
-
-#green{
-    color:green;
-}
-
-
-#message{
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    border-bottom: solid black 15px;
-    padding-bottom:45px;
-    font-family: 'Merriweather', serif;
-    
-}
-
-
-/* Media Queries */
-@media only screen and (max-width: 575px) {
-    .save-button{
-        position: relative;
-        left: 18px;
-        width: 319px;
-}
-    }
+  }
